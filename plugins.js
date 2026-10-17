@@ -12,8 +12,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/veinminer",
-    "download": "https://modrinth.com/plugin/veinminer/versions",
+    "page": "",
+    "download": "",
     "downloads": 96730259
   },
   {
@@ -28,8 +28,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/simple-voice-chat",
-    "download": "https://modrinth.com/plugin/simple-voice-chat/versions",
+    "page": "",
+    "download": "",
     "downloads": 74730102
   },
   {
@@ -43,8 +43,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/lmd",
-    "download": "https://modrinth.com/plugin/lmd/versions",
+    "page": "",
+    "download": "",
     "downloads": 24945379
   },
   {
@@ -59,8 +59,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/chunky",
-    "download": "https://modrinth.com/plugin/chunky/versions",
+    "page": "",
+    "download": "",
     "downloads": 19588886
   },
   {
@@ -75,8 +75,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/worldedit",
-    "download": "https://modrinth.com/plugin/worldedit/versions",
+    "page": "",
+    "download": "",
     "downloads": 11620231
   },
   {
@@ -91,8 +91,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/emotecraft",
-    "download": "https://modrinth.com/plugin/emotecraft/versions",
+    "page": "",
+    "download": "",
     "downloads": 7851175
   },
   {
@@ -106,8 +106,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/common-network",
-    "download": "https://modrinth.com/plugin/common-network/versions",
+    "page": "",
+    "download": "",
     "downloads": 4337258
   },
   {
@@ -122,8 +122,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/custom-player-models",
-    "download": "https://modrinth.com/plugin/custom-player-models/versions",
+    "page": "",
+    "download": "",
     "downloads": 3152860
   },
   {
@@ -138,8 +138,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/patpat",
-    "download": "https://modrinth.com/plugin/patpat/versions",
+    "page": "",
+    "download": "",
     "downloads": 3096823
   },
   {
@@ -154,8 +154,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/luckperms",
-    "download": "https://modrinth.com/plugin/luckperms/versions",
+    "page": "",
+    "download": "",
     "downloads": 2969848
   },
   {
@@ -169,8 +169,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/itemswapper",
-    "download": "https://modrinth.com/plugin/itemswapper/versions",
+    "page": "",
+    "download": "",
     "downloads": 2098877
   },
   {
@@ -185,8 +185,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/skinsrestorer",
-    "download": "https://modrinth.com/plugin/skinsrestorer/versions",
+    "page": "",
+    "download": "",
     "downloads": 1762854
   },
   {
@@ -201,8 +201,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/tab-was-taken",
-    "download": "https://modrinth.com/plugin/tab-was-taken/versions",
+    "page": "",
+    "download": "",
     "downloads": 1317110
   },
   {
@@ -217,8 +217,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/worldguard",
-    "download": "https://modrinth.com/plugin/worldguard/versions",
+    "page": "",
+    "download": "",
     "downloads": 959045
   },
   {
@@ -232,8 +232,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/essentialsx",
-    "download": "https://modrinth.com/plugin/essentialsx/versions",
+    "page": "",
+    "download": "",
     "downloads": 901265
   },
   {
@@ -248,8 +248,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/packetevents",
-    "download": "https://modrinth.com/plugin/packetevents/versions",
+    "page": "",
+    "download": "",
     "downloads": 897436
   },
   {
@@ -263,8 +263,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/universetiertagger",
-    "download": "https://modrinth.com/plugin/universetiertagger/versions",
+    "page": "",
+    "download": "",
     "downloads": 877410
   },
   {
@@ -278,8 +278,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/multiverse-core",
-    "download": "https://modrinth.com/plugin/multiverse-core/versions",
+    "page": "",
+    "download": "",
     "downloads": 875862
   },
   {
@@ -294,8 +294,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/grimac",
-    "download": "https://modrinth.com/plugin/grimac/versions",
+    "page": "",
+    "download": "",
     "downloads": 772355
   },
   {
@@ -310,8 +310,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/osc-dp",
-    "download": "https://modrinth.com/plugin/osc-dp/versions",
+    "page": "",
+    "download": "",
     "downloads": 754678
   },
   {
@@ -325,8 +325,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/server-redirect",
-    "download": "https://modrinth.com/plugin/server-redirect/versions",
+    "page": "",
+    "download": "",
     "downloads": 704067
   },
   {
@@ -341,8 +341,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/clickvillagers",
-    "download": "https://modrinth.com/plugin/clickvillagers/versions",
+    "page": "",
+    "download": "",
     "downloads": 703643
   },
   {
@@ -356,8 +356,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/fastasyncworldedit",
-    "download": "https://modrinth.com/plugin/fastasyncworldedit/versions",
+    "page": "",
+    "download": "",
     "downloads": 595092
   },
   {
@@ -372,8 +372,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/coreprotect",
-    "download": "https://modrinth.com/plugin/coreprotect/versions",
+    "page": "",
+    "download": "",
     "downloads": 573290
   },
   {
@@ -388,8 +388,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/discordsrv",
-    "download": "https://modrinth.com/plugin/discordsrv/versions",
+    "page": "",
+    "download": "",
     "downloads": 540372
   },
   {
@@ -404,8 +404,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/terra",
-    "download": "https://modrinth.com/plugin/terra/versions",
+    "page": "",
+    "download": "",
     "downloads": 526169
   },
   {
@@ -420,8 +420,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/villager-in-a-bucket",
-    "download": "https://modrinth.com/plugin/villager-in-a-bucket/versions",
+    "page": "",
+    "download": "",
     "downloads": 513930
   },
   {
@@ -435,8 +435,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/tps-hud",
-    "download": "https://modrinth.com/plugin/tps-hud/versions",
+    "page": "",
+    "download": "",
     "downloads": 505612
   },
   {
@@ -450,8 +450,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/dynmap",
-    "download": "https://modrinth.com/plugin/dynmap/versions",
+    "page": "",
+    "download": "",
     "downloads": 500374
   },
   {
@@ -466,8 +466,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/placeholderapi",
-    "download": "https://modrinth.com/plugin/placeholderapi/versions",
+    "page": "",
+    "download": "",
     "downloads": 425898
   },
   {
@@ -482,8 +482,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/chunkyborder",
-    "download": "https://modrinth.com/plugin/chunkyborder/versions",
+    "page": "",
+    "download": "",
     "downloads": 384517
   },
   {
@@ -497,8 +497,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/invsee-plus-plus",
-    "download": "https://modrinth.com/plugin/invsee-plus-plus/versions",
+    "page": "",
+    "download": "",
     "downloads": 373784
   },
   {
@@ -512,8 +512,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/buildpaste",
-    "download": "https://modrinth.com/plugin/buildpaste/versions",
+    "page": "",
+    "download": "",
     "downloads": 352507
   },
   {
@@ -528,8 +528,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/nbtapi",
-    "download": "https://modrinth.com/plugin/nbtapi/versions",
+    "page": "",
+    "download": "",
     "downloads": 351920
   },
   {
@@ -544,8 +544,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/lagfixer",
-    "download": "https://modrinth.com/plugin/lagfixer/versions",
+    "page": "",
+    "download": "",
     "downloads": 337778
   },
   {
@@ -560,8 +560,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/voicemessages",
-    "download": "https://modrinth.com/plugin/voicemessages/versions",
+    "page": "",
+    "download": "",
     "downloads": 337176
   },
   {
@@ -575,8 +575,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/sethome",
-    "download": "https://modrinth.com/plugin/sethome/versions",
+    "page": "",
+    "download": "",
     "downloads": 333249
   },
   {
@@ -591,8 +591,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/simple-voice-chat-discord-bridge",
-    "download": "https://modrinth.com/plugin/simple-voice-chat-discord-bridge/versions",
+    "page": "",
+    "download": "",
     "downloads": 320638
   },
   {
@@ -607,8 +607,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/zannaghs-armor-hider",
-    "download": "https://modrinth.com/plugin/zannaghs-armor-hider/versions",
+    "page": "",
+    "download": "",
     "downloads": 294510
   },
   {
@@ -622,8 +622,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/multiverse-inventories",
-    "download": "https://modrinth.com/plugin/multiverse-inventories/versions",
+    "page": "",
+    "download": "",
     "downloads": 285814
   },
   {
@@ -638,8 +638,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/authmerereloaded",
-    "download": "https://modrinth.com/plugin/authmerereloaded/versions",
+    "page": "",
+    "download": "",
     "downloads": 282715
   },
   {
@@ -653,8 +653,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/clickmobs",
-    "download": "https://modrinth.com/plugin/clickmobs/versions",
+    "page": "",
+    "download": "",
     "downloads": 272230
   },
   {
@@ -668,8 +668,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/leashable-players",
-    "download": "https://modrinth.com/plugin/leashable-players/versions",
+    "page": "",
+    "download": "",
     "downloads": 271211
   },
   {
@@ -683,8 +683,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/powerranks",
-    "download": "https://modrinth.com/plugin/powerranks/versions",
+    "page": "",
+    "download": "",
     "downloads": 266354
   },
   {
@@ -698,8 +698,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/oneblock_bukkit",
-    "download": "https://modrinth.com/plugin/oneblock_bukkit/versions",
+    "page": "",
+    "download": "",
     "downloads": 251122
   },
   {
@@ -713,8 +713,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/just-tpa",
-    "download": "https://modrinth.com/plugin/just-tpa/versions",
+    "page": "",
+    "download": "",
     "downloads": 242250
   },
   {
@@ -728,8 +728,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/customcrafting",
-    "download": "https://modrinth.com/plugin/customcrafting/versions",
+    "page": "",
+    "download": "",
     "downloads": 240197
   },
   {
@@ -743,8 +743,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/essentialsx-chat-module",
-    "download": "https://modrinth.com/plugin/essentialsx-chat-module/versions",
+    "page": "",
+    "download": "",
     "downloads": 223854
   },
   {
@@ -758,8 +758,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/griefprevention",
-    "download": "https://modrinth.com/plugin/griefprevention/versions",
+    "page": "",
+    "download": "",
     "downloads": 223634
   },
   {
@@ -774,8 +774,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/orebfuscator",
-    "download": "https://modrinth.com/plugin/orebfuscator/versions",
+    "page": "",
+    "download": "",
     "downloads": 223599
   },
   {
@@ -790,8 +790,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/itemedit",
-    "download": "https://modrinth.com/plugin/itemedit/versions",
+    "page": "",
+    "download": "",
     "downloads": 223295
   },
   {
@@ -806,8 +806,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/axgraves",
-    "download": "https://modrinth.com/plugin/axgraves/versions",
+    "page": "",
+    "download": "",
     "downloads": 210867
   },
   {
@@ -821,8 +821,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/essentialsx-spawn",
-    "download": "https://modrinth.com/plugin/essentialsx-spawn/versions",
+    "page": "",
+    "download": "",
     "downloads": 208457
   },
   {
@@ -836,8 +836,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/clearlag-plus-plus",
-    "download": "https://modrinth.com/plugin/clearlag-plus-plus/versions",
+    "page": "",
+    "download": "",
     "downloads": 204671
   },
   {
@@ -852,8 +852,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/chunksmith",
-    "download": "https://modrinth.com/plugin/chunksmith/versions",
+    "page": "",
+    "download": "",
     "downloads": 201324
   },
   {
@@ -867,8 +867,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/provanish",
-    "download": "https://modrinth.com/plugin/provanish/versions",
+    "page": "",
+    "download": "",
     "downloads": 195872
   },
   {
@@ -883,8 +883,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/simple-login",
-    "download": "https://modrinth.com/plugin/simple-login/versions",
+    "page": "",
+    "download": "",
     "downloads": 173343
   },
   {
@@ -899,8 +899,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/modernnetworking",
-    "download": "https://modrinth.com/plugin/modernnetworking/versions",
+    "page": "",
+    "download": "",
     "downloads": 173188
   },
   {
@@ -915,8 +915,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/vaultunlocked",
-    "download": "https://modrinth.com/plugin/vaultunlocked/versions",
+    "page": "",
+    "download": "",
     "downloads": 169606
   },
   {
@@ -930,8 +930,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/fokusapi",
-    "download": "https://modrinth.com/plugin/fokusapi/versions",
+    "page": "",
+    "download": "",
     "downloads": 167493
   },
   {
@@ -946,8 +946,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/authmereloaded",
-    "download": "https://modrinth.com/plugin/authmereloaded/versions",
+    "page": "",
+    "download": "",
     "downloads": 166361
   },
   {
@@ -961,8 +961,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/wolfyutils",
-    "download": "https://modrinth.com/plugin/wolfyutils/versions",
+    "page": "",
+    "download": "",
     "downloads": 165627
   },
   {
@@ -977,8 +977,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/lightning-grim-anticheat",
-    "download": "https://modrinth.com/plugin/lightning-grim-anticheat/versions",
+    "page": "",
+    "download": "",
     "downloads": 163454
   },
   {
@@ -992,8 +992,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/multiverse-portals",
-    "download": "https://modrinth.com/plugin/multiverse-portals/versions",
+    "page": "",
+    "download": "",
     "downloads": 157680
   },
   {
@@ -1007,8 +1007,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/all-in-one-veinminer",
-    "download": "https://modrinth.com/plugin/all-in-one-veinminer/versions",
+    "page": "",
+    "download": "",
     "downloads": 157120
   },
   {
@@ -1022,8 +1022,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/nexusauctionhouse",
-    "download": "https://modrinth.com/plugin/nexusauctionhouse/versions",
+    "page": "",
+    "download": "",
     "downloads": 156552
   },
   {
@@ -1037,8 +1037,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/inventoryrollbackplus",
-    "download": "https://modrinth.com/plugin/inventoryrollbackplus/versions",
+    "page": "",
+    "download": "",
     "downloads": 155078
   },
   {
@@ -1053,8 +1053,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/gsit",
-    "download": "https://modrinth.com/plugin/gsit/versions",
+    "page": "",
+    "download": "",
     "downloads": 153418
   },
   {
@@ -1069,8 +1069,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/plugmanx",
-    "download": "https://modrinth.com/plugin/plugmanx/versions",
+    "page": "",
+    "download": "",
     "downloads": 150958
   },
   {
@@ -1085,8 +1085,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/nexuscore",
-    "download": "https://modrinth.com/plugin/nexuscore/versions",
+    "page": "",
+    "download": "",
     "downloads": 150522
   },
   {
@@ -1101,8 +1101,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/tpa.66666",
-    "download": "https://modrinth.com/plugin/tpa.66666/versions",
+    "page": "",
+    "download": "",
     "downloads": 150148
   },
   {
@@ -1117,8 +1117,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/executableitems",
-    "download": "https://modrinth.com/plugin/executableitems/versions",
+    "page": "",
+    "download": "",
     "downloads": 147821
   },
   {
@@ -1132,8 +1132,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/geyser-and-floodgate-auto-uploader",
-    "download": "https://modrinth.com/plugin/geyser-and-floodgate-auto-uploader/versions",
+    "page": "",
+    "download": "",
     "downloads": 146787
   },
   {
@@ -1147,8 +1147,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/drop-head",
-    "download": "https://modrinth.com/plugin/drop-head/versions",
+    "page": "",
+    "download": "",
     "downloads": 144566
   },
   {
@@ -1163,8 +1163,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/ajleaderboards",
-    "download": "https://modrinth.com/plugin/ajleaderboards/versions",
+    "page": "",
+    "download": "",
     "downloads": 144367
   },
   {
@@ -1179,8 +1179,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/treetimber",
-    "download": "https://modrinth.com/plugin/treetimber/versions",
+    "page": "",
+    "download": "",
     "downloads": 142667
   },
   {
@@ -1195,8 +1195,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/freedomchat",
-    "download": "https://modrinth.com/plugin/freedomchat/versions",
+    "page": "",
+    "download": "",
     "downloads": 140587
   },
   {
@@ -1210,8 +1210,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/setspawn",
-    "download": "https://modrinth.com/plugin/setspawn/versions",
+    "page": "",
+    "download": "",
     "downloads": 139115
   },
   {
@@ -1226,8 +1226,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/minertrack",
-    "download": "https://modrinth.com/plugin/minertrack/versions",
+    "page": "",
+    "download": "",
     "downloads": 139093
   },
   {
@@ -1242,8 +1242,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/webcam-mod",
-    "download": "https://modrinth.com/plugin/webcam-mod/versions",
+    "page": "",
+    "download": "",
     "downloads": 134455
   },
   {
@@ -1258,8 +1258,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/deluxehub",
-    "download": "https://modrinth.com/plugin/deluxehub/versions",
+    "page": "",
+    "download": "",
     "downloads": 131686
   },
   {
@@ -1273,8 +1273,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/xaero-map-spigot",
-    "download": "https://modrinth.com/plugin/xaero-map-spigot/versions",
+    "page": "",
+    "download": "",
     "downloads": 121613
   },
   {
@@ -1288,8 +1288,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/deluxemenus",
-    "download": "https://modrinth.com/plugin/deluxemenus/versions",
+    "page": "",
+    "download": "",
     "downloads": 121311
   },
   {
@@ -1304,8 +1304,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/advanced-portals",
-    "download": "https://modrinth.com/plugin/advanced-portals/versions",
+    "page": "",
+    "download": "",
     "downloads": 119493
   },
   {
@@ -1320,8 +1320,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/score",
-    "download": "https://modrinth.com/plugin/score/versions",
+    "page": "",
+    "download": "",
     "downloads": 118824
   },
   {
@@ -1335,8 +1335,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/libre-login",
-    "download": "https://modrinth.com/plugin/libre-login/versions",
+    "page": "",
+    "download": "",
     "downloads": 118172
   },
   {
@@ -1351,8 +1351,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/instarestock",
-    "download": "https://modrinth.com/plugin/instarestock/versions",
+    "page": "",
+    "download": "",
     "downloads": 118043
   },
   {
@@ -1366,8 +1366,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/noemotecraft",
-    "download": "https://modrinth.com/plugin/noemotecraft/versions",
+    "page": "",
+    "download": "",
     "downloads": 117823
   },
   {
@@ -1381,8 +1381,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/vault-2.0-economy-plugins",
-    "download": "https://modrinth.com/plugin/vault-2.0-economy-plugins/versions",
+    "page": "",
+    "download": "",
     "downloads": 113735
   },
   {
@@ -1397,8 +1397,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/simplescore",
-    "download": "https://modrinth.com/plugin/simplescore/versions",
+    "page": "",
+    "download": "",
     "downloads": 112931
   },
   {
@@ -1413,8 +1413,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/ultimate-teams",
-    "download": "https://modrinth.com/plugin/ultimate-teams/versions",
+    "page": "",
+    "download": "",
     "downloads": 112320
   },
   {
@@ -1428,8 +1428,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/orbitalstrike-plugin",
-    "download": "https://modrinth.com/plugin/orbitalstrike-plugin/versions",
+    "page": "",
+    "download": "",
     "downloads": 110409
   },
   {
@@ -1443,8 +1443,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/takeitout",
-    "download": "https://modrinth.com/plugin/takeitout/versions",
+    "page": "",
+    "download": "",
     "downloads": 109752
   },
   {
@@ -1459,8 +1459,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/pl3xmap",
-    "download": "https://modrinth.com/plugin/pl3xmap/versions",
+    "page": "",
+    "download": "",
     "downloads": 109156
   },
   {
@@ -1475,8 +1475,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/spawn",
-    "download": "https://modrinth.com/plugin/spawn/versions",
+    "page": "",
+    "download": "",
     "downloads": 108245
   },
   {
@@ -1491,8 +1491,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/voice-chat-global-spectator-chat",
-    "download": "https://modrinth.com/plugin/voice-chat-global-spectator-chat/versions",
+    "page": "",
+    "download": "",
     "downloads": 107357
   },
   {
@@ -1507,8 +1507,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/simpletpaplugin",
-    "download": "https://modrinth.com/plugin/simpletpaplugin/versions",
+    "page": "",
+    "download": "",
     "downloads": 106560
   },
   {
@@ -1523,8 +1523,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/dreamdisplays",
-    "download": "https://modrinth.com/plugin/dreamdisplays/versions",
+    "page": "",
+    "download": "",
     "downloads": 106301
   },
   {
@@ -1538,8 +1538,8 @@ window.NOXX_PLUGINS = [
       "Bukkit"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/uberenchant",
-    "download": "https://modrinth.com/plugin/uberenchant/versions",
+    "page": "",
+    "download": "",
     "downloads": 104466
   },
   {
@@ -1554,8 +1554,8 @@ window.NOXX_PLUGINS = [
       "Purpur/Folia"
     ],
     "price": "Free",
-    "page": "https://modrinth.com/plugin/enderchest",
-    "download": "https://modrinth.com/plugin/enderchest/versions",
+    "page": "",
+    "download": "",
     "downloads": 103676
   }
 ];
