@@ -1,36 +1,82 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#101411"><title>Noxx — Minecraft Plugin & Bedrock Catalog</title><link rel="stylesheet" href="styles.css">
-<style>html{scroll-behavior:smooth;scroll-padding-top:24px}.catalog-index{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.catalog-index a{color:inherit;border:1px solid #455448;border-radius:8px;padding:9px 14px;text-decoration:none}.catalog-index a:hover{background:#26362a}.catalog-heading{margin:30px 0 20px}.bedrock-section{margin-top:32px;scroll-margin-top:24px}.bedrock-section h3{font-size:1.45rem;margin-bottom:12px}.bedrock-section>p{color:#a4afa7;margin-bottom:20px}.bedrock-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px}.bedrock-grid .card{height:100%}.source-note{font-size:.8rem;color:#a4afa7}.catalog-index a:focus-visible{outline:2px solid #b5e878}[hidden]{display:none!important}.hero .top{display:flex;justify-content:space-between;align-items:center;gap:20px}.hero-copy{max-width:1000px}</style></head>
-<body id="top"><header class="hero"><div class="top"><a class="brand" href="#top">NOXX<span> / MINECRAFT INDEX</span></a><a href="https://github.com/Noxx17/noxxpluginsearch" target="_blank" rel="noopener noreferrer">Site repository ↗</a></div><div class="hero-copy"><div class="eyebrow">JAVA & BEDROCK · COMMUNITY DIRECTORY</div><h1>Build your<br><em>world stack.</em></h1><p>A curated directory of Java server plugins and Bedrock add-ons, resource packs, behaviour packs and texture packs.</p><div class="stats"><strong id="result-count">0</strong><span>matching entries</span><span>Check compatibility before installing</span></div><nav class="catalog-index" aria-label="Catalog index"><a href="#java-catalog">Java plugins</a><a href="#bedrock-mods">Bedrock mods / add-ons</a><a href="#bedrock-resources">Resource packs</a><a href="#bedrock-behaviour">Behaviour packs</a><a href="#bedrock-textures">Texture packs</a></nav></div><div class="pixel-art" aria-hidden="true"></div></header>
-<main><section class="controls" aria-label="Catalog filters"><div class="platform-tabs" id="platform-tabs" role="tablist" aria-label="Platform"><button class="active" role="tab" aria-selected="true" data-platform="All">All platforms</button><button role="tab" aria-selected="false" data-platform="Paper">Paper</button><button role="tab" aria-selected="false" data-platform="Spigot">Spigot</button><button role="tab" aria-selected="false" data-platform="Bukkit">Bukkit</button><button role="tab" aria-selected="false" data-platform="Purpur/Folia">Purpur/Folia</button><button role="tab" aria-selected="false" data-platform="Bedrock">Bedrock</button></div><div class="filters"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search plugins and packs…" aria-label="Search by name"></label><label class="select-wrap"><span class="sr">Category</span><select id="category"><option value="">All categories</option></select></label><label class="select-wrap"><span class="sr">Price</span><select id="price"><option value="">Any price</option><option>Free</option><option>Paid</option><option>Unknown</option></select></label><label class="select-wrap sort"><span>Sort</span><select id="sort"><option value="az">Name A–Z</option><option value="za">Name Z–A</option><option value="category">Category</option></select></label></div><div id="active-line" class="active-line"></div></section>
-<section id="java-catalog"><h2 class="catalog-heading">Java server plugins</h2><p class="source-note">All existing Java listings are preserved. Unverified source links have been omitted rather than replaced with guesses.</p><div id="grid" class="grid" aria-live="polite"></div></section><div id="empty" class="empty" hidden><strong>No matching entries</strong><p>Try changing your search or filters.</p></div>
-<section class="bedrock" id="bedrock"><div class="bedrock-head"><div><div class="eyebrow">SEPARATE ECOSYSTEM · BEDROCK EDITION</div><h2>Bedrock catalog</h2><p>Real add-ons and packs, with official creator or Marketplace links.</p></div></div><div class="bedrock-note">Bedrock does not use Java server plugins. Mods are distributed as add-ons, often combining behaviour and resource packs; texture packs are visual resource packs. Check each pack's supported version and installation instructions. Unknown means the official page did not state a price. Bedrock Tweaks links open the official selector: choose the named tweak before downloading.</div>
-<section class="bedrock-section" id="bedrock-mods"><h3>Bedrock mods / add-ons</h3><p>Gameplay additions for your Bedrock worlds.</p><div id="mods-grid" class="bedrock-grid" aria-live="polite"></div></section><section class="bedrock-section" id="bedrock-resources"><h3>Resource packs</h3><p>Customise how your world looks and feels.</p><div id="resources-grid" class="bedrock-grid" aria-live="polite"></div></section><section class="bedrock-section" id="bedrock-behaviour"><h3>Behaviour packs</h3><p>Recipe-changing packs from the official Bedrock Tweaks crafting selector.</p><div id="behaviour-grid" class="bedrock-grid" aria-live="polite"></div></section><section class="bedrock-section" id="bedrock-textures"><h3>Texture packs</h3><p>Focused visual tweaks; these are also resource packs.</p><div id="textures-grid" class="bedrock-grid" aria-live="polite"></div></section></section></main><footer><span>NOXX · An independent community directory</span><span>Verify prices and compatibility on the official page.</span></footer>
-<script src="plugins.js"></script>
-<script>
-/* Site renderer. Java data remains in plugins.js; verified Bedrock sources below. */
-(() => {
- const resource='https://bedrocktweaks.net/resource-packs', crafting='https://bedrocktweaks.net/crafting-tweaks';
- const packs=[
- {name:'Another Furniture Add-On',description:'Craft vanilla-style furniture to decorate your Bedrock world.',price:'Free',category:'Bedrock mods / add-ons',group:'mods',page:'https://www.minecraft.net/en-us/marketplace/pdp/starfish-studios/another-furniture-add--on/62742ae5-5a69-4fa2-97b4-1208c812308a'},
- {name:'Spark Pets Add-On (Lite)',description:'Add cute pets to your worlds as adorable companions.',price:'Free',category:'Bedrock mods / add-ons',group:'mods',page:'https://www.minecraft.net/en-us/marketplace/pdp/spark-universe/spark-pets-add--on-(lite)/991399be-4969-46c1-a08f-ed4fa2d159b5'},
- {name:'ALL THE WOOL Add-On',description:'Expand your builds with hundreds of colours of wool.',price:'Free',category:'Bedrock mods / add-ons',group:'mods',page:'https://www.minecraft.net/en-us/marketplace/pdp/jigarbov-productions/all-the-wool-add--on/d8a20ca0-7c7d-4ce0-bfdb-82606751db49'},
- {name:'Bedrock Tweaks Resource Packs',description:'Build a custom resource pack by choosing visual tweaks in the official selector.',price:'Unknown',category:'Resource packs',group:'resources',page:resource},
- {name:'Back to Blocks',description:'Craft full blocks from stairs and slabs.',price:'Unknown',category:'Behaviour packs',group:'behaviour',page:crafting},
- {name:'Double Slabs',description:'Craft two slabs from a single block.',price:'Unknown',category:'Behaviour packs',group:'behaviour',page:crafting},
- {name:'Rotten Flesh to Leather',description:'Smelt rotten flesh into leather.',price:'Unknown',category:'Behaviour packs',group:'behaviour',page:crafting},
- {name:'Black Nether Bricks',description:'Change Nether Bricks to a black texture.',price:'Unknown',category:'Texture packs',group:'textures',page:resource},
- {name:'Clean Wool',description:'Give all wool blocks a clean texture.',price:'Unknown',category:'Texture packs',group:'textures',page:resource},
- {name:'Softer Wool',description:'Lower contrast and smooth the textures of all wool blocks.',price:'Unknown',category:'Texture packs',group:'textures',page:resource}
- ].map(p=>({...p,platforms:['Bedrock']}));
- const java=window.NOXX_PLUGINS||[], all=[...java,...packs], $=id=>document.getElementById(id), tabs=$('platform-tabs'), search=$('search'), category=$('category'), price=$('price'), sort=$('sort');let platform='All';
- const categories=['Essentials & Admin','Anticheat & Security','Economy & Shops','World Management & Protection','Performance','Chat & Social','Building & Schematic Tools','Minigames & Fun','Map & HUD','Developer/API','Bedrock mods / add-ons','Resource packs','Behaviour packs','Texture packs'];
- categories.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;category.appendChild(o);});
- function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
- function url(s){try{const u=new URL(s);return u.protocol==='https:'&&!/(^|\.)modrinth\.com$/i.test(u.hostname)?esc(u.href):'';}catch{return '';}}
- function card(p){const page=url(p.page),download=url(p.download);return `<article class="card"><div class="card-top"><h2>${esc(p.name)}</h2><span class="price ${p.price==='Paid'?'paid':''}">${esc(p.price||'Unknown')}</span></div><p class="desc">${esc(p.description)}</p><div class="tags">${p.platforms.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}<span class="tag cat">${esc(p.category)}</span></div><div class="links">${page?`<a href="${page}" target="_blank" rel="noopener noreferrer">Official page ↗</a>`:''}${download&&download!==page?`<a href="${download}" target="_blank" rel="noopener noreferrer">Download ↗</a>`:''}${!page&&!download?'<span class="source-note">Official link not yet verified.</span>':''}</div></article>`;}
- function render(){const term=search.value.trim().toLowerCase();const list=all.filter(p=>(platform==='All'||p.platforms.includes(platform))&&(!term||p.name.toLowerCase().includes(term))&&(!category.value||p.category===category.value)&&(!price.value||p.price===price.value));list.sort((a,b)=>sort.value==='za'?b.name.localeCompare(a.name):sort.value==='category'?a.category.localeCompare(b.category)||a.name.localeCompare(b.name):a.name.localeCompare(b.name));$('result-count').textContent=list.length;$('active-line').textContent=`${platform==='All'?'ALL PLATFORMS':platform.toUpperCase()} / ${category.value||'ALL CATEGORIES'} / ${price.value||'ANY PRICE'}`;$('empty').hidden=!!list.length;$('grid').innerHTML=list.filter(p=>!p.group).map(card).join('');$('java-catalog').hidden=platform==='Bedrock';$('bedrock').hidden=platform!=='All'&&platform!=='Bedrock';['mods','resources','behaviour','textures'].forEach(g=>{const entries=list.filter(p=>p.group===g);$(g+'-grid').innerHTML=entries.length?entries.map(card).join(''):'<p class="source-note">No matches in this section for the current filters.</p>';});}
- function setPlatform(p){platform=p;tabs.querySelectorAll('button').forEach(b=>{const selected=b.dataset.platform===p;b.classList.toggle('active',selected);b.setAttribute('aria-selected',String(selected));});render();}
- tabs.addEventListener('click',e=>{const b=e.target.closest('button[data-platform]');if(b)setPlatform(b.dataset.platform);});[search,category,price,sort].forEach(el=>el.addEventListener(el===search?'input':'change',render));document.querySelector('.catalog-index').addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;search.value='';category.value='';price.value='';setPlatform(a.hash==='#java-catalog'?'All':'Bedrock');});render();
-})();
-</script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101411">
+  <title>Noxx — Minecraft Plugin & Bedrock Catalog</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    html{scroll-behavior:smooth;scroll-padding-top:24px}
+    .catalog-index{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+    .catalog-index a{color:inherit;border:1px solid #455448;border-radius:8px;padding:9px 14px;text-decoration:none}
+    .catalog-index a:hover{background:#26362a}
+    .catalog-index a:focus-visible{outline:2px solid #b5e878}
+    .catalog-heading{margin:30px 0 20px}
+    .bedrock-section{margin-top:32px;scroll-margin-top:24px}
+    .bedrock-section h3{font-size:1.45rem;margin-bottom:12px}
+    .bedrock-section>p{color:#a4afa7;margin-bottom:20px}
+    .bedrock-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px}
+    .bedrock-grid .card{height:100%}
+    .source-note{font-size:.8rem;color:#a4afa7}
+    [hidden]{display:none!important}
+    .hero .top{display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .hero-copy{max-width:1000px}
+  </style>
+</head>
+<body id="top">
+  <header class="hero">
+    <div class="top"><a class="brand" href="#top">NOXX<span> / MINECRAFT INDEX</span></a><a href="https://github.com/Noxx17/noxxpluginsearch" target="_blank" rel="noopener noreferrer">Site repository ↗</a></div>
+    <div class="hero-copy">
+      <div class="eyebrow">JAVA & BEDROCK · COMMUNITY DIRECTORY</div>
+      <h1>Build your<br><em>world stack.</em></h1>
+      <p>A curated directory of Java server plugins and Bedrock add-ons, resource packs, behaviour packs and texture packs.</p>
+      <div class="stats"><strong id="result-count">0</strong><span>matching entries</span><span>Check compatibility before installing</span></div>
+      <nav class="catalog-index" aria-label="Catalog index">
+        <a href="#java-catalog">Java plugins</a>
+        <a href="#bedrock-mods">Bedrock mods / add-ons</a>
+        <a href="#bedrock-resources">Resource packs</a>
+        <a href="#bedrock-behaviour">Behaviour packs</a>
+        <a href="#bedrock-textures">Texture packs</a>
+      </nav>
+    </div>
+    <div class="pixel-art" aria-hidden="true"></div>
+  </header>
+  <main>
+    <section class="controls" aria-label="Catalog filters">
+      <div class="platform-tabs" id="platform-tabs" role="tablist" aria-label="Platform">
+        <button class="active" role="tab" aria-selected="true" data-platform="All">All platforms</button>
+        <button role="tab" aria-selected="false" data-platform="Paper">Paper</button>
+        <button role="tab" aria-selected="false" data-platform="Spigot">Spigot</button>
+        <button role="tab" aria-selected="false" data-platform="Bukkit">Bukkit</button>
+        <button role="tab" aria-selected="false" data-platform="Purpur/Folia">Purpur/Folia</button>
+        <button role="tab" aria-selected="false" data-platform="Bedrock">Bedrock</button>
+      </div>
+      <div class="filters">
+        <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search plugins and packs…" aria-label="Search by name"></label>
+        <label class="select-wrap"><span class="sr">Category</span><select id="category"><option value="">All categories</option></select></label>
+        <label class="select-wrap"><span class="sr">Price</span><select id="price"><option value="">Any price</option><option>Free</option><option>Paid</option><option>Unknown</option></select></label>
+        <label class="select-wrap sort"><span>Sort</span><select id="sort"><option value="az">Name A–Z</option><option value="za">Name Z–A</option><option value="category">Category</option></select></label>
+      </div>
+      <div id="active-line" class="active-line"></div>
+    </section>
+    <section id="java-catalog">
+      <h2 class="catalog-heading">Java server plugins</h2>
+      <p class="source-note">All existing Java listings are preserved. Unverified source links have been omitted rather than replaced with guesses.</p>
+      <div id="grid" class="grid" aria-live="polite"></div>
+    </section>
+    <div id="empty" class="empty" hidden><strong>No matching entries</strong><p>Try changing your search or filters.</p></div>
+    <section class="bedrock" id="bedrock">
+      <div class="bedrock-head"><div><div class="eyebrow">SEPARATE ECOSYSTEM · BEDROCK EDITION</div><h2>Bedrock catalog</h2><p>Real add-ons and packs, with official creator or Marketplace links.</p></div></div>
+      <div class="bedrock-note">Bedrock does not use Java server plugins. Mods are distributed as add-ons, often combining behaviour and resource packs; texture packs are visual resource packs. Check each pack's supported version and installation instructions. Unknown means the official page did not state a price. Bedrock Tweaks links open the official selector: choose the named tweak before downloading.</div>
+      <section class="bedrock-section" id="bedrock-mods"><h3>Bedrock mods / add-ons</h3><p>Gameplay additions for your Bedrock worlds.</p><div id="mods-grid" class="bedrock-grid" aria-live="polite"></div></section>
+      <section class="bedrock-section" id="bedrock-resources"><h3>Resource packs</h3><p>Customise how your world looks and feels.</p><div id="resources-grid" class="bedrock-grid" aria-live="polite"></div></section>
+      <section class="bedrock-section" id="bedrock-behaviour"><h3>Behaviour packs</h3><p>Recipe-changing packs from the official Bedrock Tweaks crafting selector.</p><div id="behaviour-grid" class="bedrock-grid" aria-live="polite"></div></section>
+      <section class="bedrock-section" id="bedrock-textures"><h3>Texture packs</h3><p>Focused visual tweaks; these are also resource packs.</p><div id="textures-grid" class="bedrock-grid" aria-live="polite"></div></section>
+    </section>
+  </main>
+  <footer><span>NOXX · An independent community directory</span><span>Verify prices and compatibility on the official page.</span></footer>
+  <script src="plugins.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
